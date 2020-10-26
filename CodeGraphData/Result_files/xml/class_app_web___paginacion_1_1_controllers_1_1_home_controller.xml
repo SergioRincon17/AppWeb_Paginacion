@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_app_web___paginacion_1_1_controllers_1_1_home_controller" kind="class" prot="public">
+    <compoundname>AppWeb_Paginacion::Controllers::HomeController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Controller</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_app_web___paginacion_1_1_controllers_1_1_home_controller_1ad1b2a66ca14cc62b305a77cd6408a279" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult AppWeb_Paginacion.Controllers.HomeController.Index</definition>
+        <argsstring>()</argsstring>
+        <name>Index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/AppWeb_Paginacion/Controllers/HomeController.cs" line="12" column="1" bodyfile="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/AppWeb_Paginacion/Controllers/HomeController.cs" bodystart="12" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="6">
+        <label>AppWeb_Paginacion.Controllers.HomeController</label>
+        <link refid="class_app_web___paginacion_1_1_controllers_1_1_home_controller"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>Controller</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="8">
+        <label>AppWeb_Paginacion.Controllers.HomeController</label>
+        <link refid="class_app_web___paginacion_1_1_controllers_1_1_home_controller"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>Controller</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/AppWeb_Paginacion/Controllers/HomeController.cs" line="11" column="1" bodyfile="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/AppWeb_Paginacion/Controllers/HomeController.cs" bodystart="10" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_app_web___paginacion_1_1_controllers_1_1_home_controller_1ad1b2a66ca14cc62b305a77cd6408a279" prot="public" virt="non-virtual"><scope>AppWeb_Paginacion::Controllers::HomeController</scope><name>Index</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

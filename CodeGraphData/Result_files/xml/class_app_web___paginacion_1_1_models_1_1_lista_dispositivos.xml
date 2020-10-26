@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_app_web___paginacion_1_1_models_1_1_lista_dispositivos" kind="class" prot="public">
+    <compoundname>AppWeb_Paginacion::Models::ListaDispositivos</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_app_web___paginacion_1_1_models_1_1_lista_dispositivos_1adeaae6d5aeb604e98379dfb592f157a5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="class_negocio_1_1_dispositivo" kindref="compound">Negocio.Dispositivo</ref> &gt;</type>
+        <definition>List&lt;Negocio.Dispositivo&gt; AppWeb_Paginacion.Models.ListaDispositivos.Lista_Dispositivos</definition>
+        <argsstring></argsstring>
+        <name>Lista_Dispositivos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/AppWeb_Paginacion/Models/ListaDispositivos.cs" line="10" column="1" bodyfile="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/AppWeb_Paginacion/Models/ListaDispositivos.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/AppWeb_Paginacion/Models/ListaDispositivos.cs" line="9" column="1" bodyfile="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/AppWeb_Paginacion/Models/ListaDispositivos.cs" bodystart="8" bodyend="11"/>
+    <listofallmembers>
+      <member refid="class_app_web___paginacion_1_1_models_1_1_lista_dispositivos_1adeaae6d5aeb604e98379dfb592f157a5" prot="public" virt="non-virtual"><scope>AppWeb_Paginacion::Models::ListaDispositivos</scope><name>Lista_Dispositivos</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

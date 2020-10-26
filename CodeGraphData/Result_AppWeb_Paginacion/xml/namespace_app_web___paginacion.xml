@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_app_web___paginacion" kind="namespace">
+    <compoundname>AppWeb_Paginacion</compoundname>
+    <innerclass refid="class_app_web___paginacion_1_1_bundle_config" prot="public">AppWeb_Paginacion::BundleConfig</innerclass>
+    <innerclass refid="class_app_web___paginacion_1_1_filter_config" prot="public">AppWeb_Paginacion::FilterConfig</innerclass>
+    <innerclass refid="class_app_web___paginacion_1_1_route_config" prot="public">AppWeb_Paginacion::RouteConfig</innerclass>
+    <innerclass refid="class_app_web___paginacion_1_1_mvc_application" prot="public">AppWeb_Paginacion::MvcApplication</innerclass>
+    <innernamespace refid="namespace_app_web___paginacion_1_1_controllers">AppWeb_Paginacion::Controllers</innernamespace>
+    <innernamespace refid="namespace_app_web___paginacion_1_1_models">AppWeb_Paginacion::Models</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/AppWeb_Paginacion/App_Start/BundleConfig.cs" line="5" column="1"/>
+  </compounddef>
+</doxygen>

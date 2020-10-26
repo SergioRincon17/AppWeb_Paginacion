@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_negocio_1_1_lista_dispositivos" kind="class" prot="public">
+    <compoundname>Negocio::ListaDispositivos</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_negocio_1_1_lista_dispositivos_1afee6c59ffa79595021a077c44fa9e44d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="class_negocio_1_1_dispositivo" kindref="compound">Dispositivo</ref> &gt;</type>
+        <definition>List&lt;Dispositivo&gt; Negocio.ListaDispositivos.Lista_Dispositivos</definition>
+        <argsstring></argsstring>
+        <name>Lista_Dispositivos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/Negocio/ListaDispositivos.cs" line="12" column="1" bodyfile="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/Negocio/ListaDispositivos.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/Negocio/ListaDispositivos.cs" line="11" column="1" bodyfile="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/Negocio/ListaDispositivos.cs" bodystart="10" bodyend="14"/>
+    <listofallmembers>
+      <member refid="class_negocio_1_1_lista_dispositivos_1afee6c59ffa79595021a077c44fa9e44d" prot="public" virt="non-virtual"><scope>Negocio::ListaDispositivos</scope><name>Lista_Dispositivos</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

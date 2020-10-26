@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_a41b0253000471672b07c9d1b8526aee" kind="dir">
+    <compoundname>D:/Documentos Clases Virtuales &amp; Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/AppWeb_Paginacion/Controllers</compoundname>
+    <innerfile refid="_home_controller_8cs">HomeController.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/AppWeb_Paginacion/Controllers/"/>
+  </compounddef>
+</doxygen>

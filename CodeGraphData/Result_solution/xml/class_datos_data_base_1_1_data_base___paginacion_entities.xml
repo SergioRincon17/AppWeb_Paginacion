@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_datos_data_base_1_1_data_base___paginacion_entities" kind="class" prot="public">
+    <compoundname>DatosDataBase::DataBase_PaginacionEntities</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">DbContext</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_datos_data_base_1_1_data_base___paginacion_entities_1ae1d84ebb23301b82176b2134958022d0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DbSet&lt; <ref refid="class_datos_data_base_1_1_dispositivo" kindref="compound">Dispositivo</ref> &gt;</type>
+        <definition>virtual DbSet&lt;Dispositivo&gt; DatosDataBase.DataBase_PaginacionEntities.Dispositivo</definition>
+        <argsstring></argsstring>
+        <name>Dispositivo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/DatosDataBase/DatosDataBase.Context.cs" line="28" column="1" bodyfile="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/DatosDataBase/DatosDataBase.Context.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_datos_data_base_1_1_data_base___paginacion_entities_1af68d3408980eac2c5e91a5ef78a97c1d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DatosDataBase.DataBase_PaginacionEntities.DataBase_PaginacionEntities</definition>
+        <argsstring>()</argsstring>
+        <name>DataBase_PaginacionEntities</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/DatosDataBase/DatosDataBase.Context.cs" line="18" column="1" bodyfile="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/DatosDataBase/DatosDataBase.Context.cs" bodystart="18" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_datos_data_base_1_1_data_base___paginacion_entities_1aebe73846bd9cd6d4221844046b41b7f1" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void DatosDataBase.DataBase_PaginacionEntities.OnModelCreating</definition>
+        <argsstring>(DbModelBuilder modelBuilder)</argsstring>
+        <name>OnModelCreating</name>
+        <param>
+          <type>DbModelBuilder</type>
+          <declname>modelBuilder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/DatosDataBase/DatosDataBase.Context.cs" line="23" column="1" bodyfile="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/DatosDataBase/DatosDataBase.Context.cs" bodystart="23" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>DbContext</label>
+      </node>
+      <node id="4">
+        <label>DatosDataBase.DataBase_PaginacionEntities</label>
+        <link refid="class_datos_data_base_1_1_data_base___paginacion_entities"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="7">
+        <label>DbContext</label>
+      </node>
+      <node id="6">
+        <label>DatosDataBase.DataBase_PaginacionEntities</label>
+        <link refid="class_datos_data_base_1_1_data_base___paginacion_entities"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/DatosDataBase/DatosDataBase.Context.cs" line="17" column="1" bodyfile="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/DatosDataBase/DatosDataBase.Context.cs" bodystart="16" bodyend="29"/>
+    <listofallmembers>
+      <member refid="class_datos_data_base_1_1_data_base___paginacion_entities_1af68d3408980eac2c5e91a5ef78a97c1d" prot="public" virt="non-virtual"><scope>DatosDataBase::DataBase_PaginacionEntities</scope><name>DataBase_PaginacionEntities</name></member>
+      <member refid="class_datos_data_base_1_1_data_base___paginacion_entities_1ae1d84ebb23301b82176b2134958022d0" prot="public" virt="non-virtual"><scope>DatosDataBase::DataBase_PaginacionEntities</scope><name>Dispositivo</name></member>
+      <member refid="class_datos_data_base_1_1_data_base___paginacion_entities_1aebe73846bd9cd6d4221844046b41b7f1" prot="protected" virt="non-virtual"><scope>DatosDataBase::DataBase_PaginacionEntities</scope><name>OnModelCreating</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

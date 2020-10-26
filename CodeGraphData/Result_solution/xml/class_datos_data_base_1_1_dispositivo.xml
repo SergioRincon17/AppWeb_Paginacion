@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_datos_data_base_1_1_dispositivo" kind="class" prot="public">
+    <compoundname>DatosDataBase::Dispositivo</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_datos_data_base_1_1_dispositivo_1a01baef8ec51a999defbf772602898013" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int DatosDataBase.Dispositivo.Dispocitivo_ID</definition>
+        <argsstring></argsstring>
+        <name>Dispocitivo_ID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/DatosDataBase/Dispositivo.cs" line="17" column="1" bodyfile="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/DatosDataBase/Dispositivo.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_datos_data_base_1_1_dispositivo_1a64fe8e32c07d1f4204fe6bbbb39ec090" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string DatosDataBase.Dispositivo.Nombre</definition>
+        <argsstring></argsstring>
+        <name>Nombre</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/DatosDataBase/Dispositivo.cs" line="18" column="1" bodyfile="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/DatosDataBase/Dispositivo.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_datos_data_base_1_1_dispositivo_1af3c4c04134035ddf4c52a11514d2acb3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string DatosDataBase.Dispositivo.Temperatura</definition>
+        <argsstring></argsstring>
+        <name>Temperatura</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/DatosDataBase/Dispositivo.cs" line="19" column="1" bodyfile="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/DatosDataBase/Dispositivo.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_datos_data_base_1_1_dispositivo_1ad1c2b986e2580593eb3bea6f275611a9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>System.DateTime</type>
+        <definition>System.DateTime DatosDataBase.Dispositivo.FechaHora</definition>
+        <argsstring></argsstring>
+        <name>FechaHora</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/DatosDataBase/Dispositivo.cs" line="20" column="1" bodyfile="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/DatosDataBase/Dispositivo.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/DatosDataBase/Dispositivo.cs" line="16" column="1" bodyfile="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/DatosDataBase/Dispositivo.cs" bodystart="15" bodyend="21"/>
+    <listofallmembers>
+      <member refid="class_datos_data_base_1_1_dispositivo_1a01baef8ec51a999defbf772602898013" prot="public" virt="non-virtual"><scope>DatosDataBase::Dispositivo</scope><name>Dispocitivo_ID</name></member>
+      <member refid="class_datos_data_base_1_1_dispositivo_1ad1c2b986e2580593eb3bea6f275611a9" prot="public" virt="non-virtual"><scope>DatosDataBase::Dispositivo</scope><name>FechaHora</name></member>
+      <member refid="class_datos_data_base_1_1_dispositivo_1a64fe8e32c07d1f4204fe6bbbb39ec090" prot="public" virt="non-virtual"><scope>DatosDataBase::Dispositivo</scope><name>Nombre</name></member>
+      <member refid="class_datos_data_base_1_1_dispositivo_1af3c4c04134035ddf4c52a11514d2acb3" prot="public" virt="non-virtual"><scope>DatosDataBase::Dispositivo</scope><name>Temperatura</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

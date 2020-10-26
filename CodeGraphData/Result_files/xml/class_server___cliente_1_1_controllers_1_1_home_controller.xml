@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_server___cliente_1_1_controllers_1_1_home_controller" kind="class" prot="public">
+    <compoundname>Server_Cliente::Controllers::HomeController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Controller</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_server___cliente_1_1_controllers_1_1_home_controller_1aeed5ca72074ae5eb25ec83bd96ebeabf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult Server_Cliente.Controllers.HomeController.Index</definition>
+        <argsstring>()</argsstring>
+        <name>Index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/Framework.NET_MVC_Visual/Servidor_Cliente/Server_Cliente/Controllers/HomeController.cs" line="14" column="1" bodyfile="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/Framework.NET_MVC_Visual/Servidor_Cliente/Server_Cliente/Controllers/HomeController.cs" bodystart="14" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_server___cliente_1_1_controllers_1_1_home_controller_1a9714c3dfcc062d4ff2780d2723bc9c79" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult Server_Cliente.Controllers.HomeController.Index</definition>
+        <argsstring>(ListaD_Clima DatosRecividos)</argsstring>
+        <name>Index</name>
+        <param>
+          <type>ListaD_Clima</type>
+          <declname>DatosRecividos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/Framework.NET_MVC_Visual/Servidor_Cliente/Server_Cliente/Controllers/HomeController.cs" line="20" column="1" bodyfile="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/Framework.NET_MVC_Visual/Servidor_Cliente/Server_Cliente/Controllers/HomeController.cs" bodystart="20" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_server___cliente_1_1_controllers_1_1_home_controller_1a56268757a8fa9ca238bec42dfd30e542" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult Server_Cliente.Controllers.HomeController.Login</definition>
+        <argsstring>()</argsstring>
+        <name>Login</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/Framework.NET_MVC_Visual/Servidor_Cliente/Server_Cliente/Controllers/HomeController.cs" line="25" column="1" bodyfile="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/Framework.NET_MVC_Visual/Servidor_Cliente/Server_Cliente/Controllers/HomeController.cs" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_server___cliente_1_1_controllers_1_1_home_controller_1a39f56aad005257ca25516fa29cf49d7a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ListaD_Clima</type>
+        <definition>ListaD_Clima Server_Cliente.Controllers.HomeController.Pedir_Datos</definition>
+        <argsstring>()</argsstring>
+        <name>Pedir_Datos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/Framework.NET_MVC_Visual/Servidor_Cliente/Server_Cliente/Controllers/HomeController.cs" line="29" column="1" bodyfile="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/Framework.NET_MVC_Visual/Servidor_Cliente/Server_Cliente/Controllers/HomeController.cs" bodystart="29" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="class_server___cliente_1_1_controllers_1_1_home_controller_1a07d2dac0b5567c5c6b63e47aa9565f7a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult Server_Cliente.Controllers.HomeController.Enviar_Solisitud</definition>
+        <argsstring>()</argsstring>
+        <name>Enviar_Solisitud</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/Framework.NET_MVC_Visual/Servidor_Cliente/Server_Cliente/Controllers/HomeController.cs" line="130" column="1" bodyfile="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/Framework.NET_MVC_Visual/Servidor_Cliente/Server_Cliente/Controllers/HomeController.cs" bodystart="130" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="function" id="class_server___cliente_1_1_controllers_1_1_home_controller_1a96e1eb7dff28f1e799ee11b280e9624e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult Server_Cliente.Controllers.HomeController.Enviar_Solisitud</definition>
+        <argsstring>(string Nombre, string Correo, string Contraseña)</argsstring>
+        <name>Enviar_Solisitud</name>
+        <param>
+          <type>string</type>
+          <declname>Nombre</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>Correo</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>Contraseña</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/Framework.NET_MVC_Visual/Servidor_Cliente/Server_Cliente/Controllers/HomeController.cs" line="223" column="1" bodyfile="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/Framework.NET_MVC_Visual/Servidor_Cliente/Server_Cliente/Controllers/HomeController.cs" bodystart="223" bodyend="310"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="10">
+        <label>Server_Cliente.Controllers.HomeController</label>
+        <link refid="class_server___cliente_1_1_controllers_1_1_home_controller"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>Controller</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="12">
+        <label>Server_Cliente.Controllers.HomeController</label>
+        <link refid="class_server___cliente_1_1_controllers_1_1_home_controller"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>Controller</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/Framework.NET_MVC_Visual/Servidor_Cliente/Server_Cliente/Controllers/HomeController.cs" line="13" column="1" bodyfile="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/Framework.NET_MVC_Visual/Servidor_Cliente/Server_Cliente/Controllers/HomeController.cs" bodystart="12" bodyend="311"/>
+    <listofallmembers>
+      <member refid="class_server___cliente_1_1_controllers_1_1_home_controller_1a07d2dac0b5567c5c6b63e47aa9565f7a" prot="public" virt="non-virtual"><scope>Server_Cliente::Controllers::HomeController</scope><name>Enviar_Solisitud</name></member>
+      <member refid="class_server___cliente_1_1_controllers_1_1_home_controller_1a96e1eb7dff28f1e799ee11b280e9624e" prot="public" virt="non-virtual"><scope>Server_Cliente::Controllers::HomeController</scope><name>Enviar_Solisitud</name></member>
+      <member refid="class_server___cliente_1_1_controllers_1_1_home_controller_1aeed5ca72074ae5eb25ec83bd96ebeabf" prot="public" virt="non-virtual"><scope>Server_Cliente::Controllers::HomeController</scope><name>Index</name></member>
+      <member refid="class_server___cliente_1_1_controllers_1_1_home_controller_1a9714c3dfcc062d4ff2780d2723bc9c79" prot="public" virt="non-virtual"><scope>Server_Cliente::Controllers::HomeController</scope><name>Index</name></member>
+      <member refid="class_server___cliente_1_1_controllers_1_1_home_controller_1a56268757a8fa9ca238bec42dfd30e542" prot="public" virt="non-virtual"><scope>Server_Cliente::Controllers::HomeController</scope><name>Login</name></member>
+      <member refid="class_server___cliente_1_1_controllers_1_1_home_controller_1a39f56aad005257ca25516fa29cf49d7a" prot="public" virt="non-virtual"><scope>Server_Cliente::Controllers::HomeController</scope><name>Pedir_Datos</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

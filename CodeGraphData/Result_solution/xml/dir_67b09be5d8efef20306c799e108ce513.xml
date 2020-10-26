@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_67b09be5d8efef20306c799e108ce513" kind="dir">
+    <compoundname>D:/Documentos Clases Virtuales &amp; Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/DatosDataBase</compoundname>
+    <innerdir refid="dir_b73c9373af7e272c98d33f5d61b96cde">D:/Documentos Clases Virtuales &amp; Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/DatosDataBase/Properties</innerdir>
+    <innerfile refid="_datos_data_base_8_context_8cs">DatosDataBase.Context.cs</innerfile>
+    <innerfile refid="_datos_data_base_8cs">DatosDataBase.cs</innerfile>
+    <innerfile refid="_datos_data_base_8_designer_8cs">DatosDataBase.Designer.cs</innerfile>
+    <innerfile refid="_datos_data_base_2_dispositivo_8cs">Dispositivo.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/DatosDataBase/"/>
+  </compounddef>
+</doxygen>

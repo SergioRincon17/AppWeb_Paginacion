@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_2f3bcf3ae787207b07a94d357cfdb2b0" kind="dir">
+    <compoundname>D:/Documentos Clases Virtuales &amp; Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/AppWeb_Paginacion/App_Start</compoundname>
+    <innerfile refid="_bundle_config_8cs">BundleConfig.cs</innerfile>
+    <innerfile refid="_filter_config_8cs">FilterConfig.cs</innerfile>
+    <innerfile refid="_route_config_8cs">RouteConfig.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/AppWeb_Paginacion/App_Start/"/>
+  </compounddef>
+</doxygen>

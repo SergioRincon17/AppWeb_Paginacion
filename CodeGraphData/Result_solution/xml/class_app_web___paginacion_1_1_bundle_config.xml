@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_app_web___paginacion_1_1_bundle_config" kind="class" prot="public">
+    <compoundname>AppWeb_Paginacion::BundleConfig</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_app_web___paginacion_1_1_bundle_config_1a2840c0825499451be0e86d0fdc106329" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AppWeb_Paginacion.BundleConfig.RegisterBundles</definition>
+        <argsstring>(BundleCollection bundles)</argsstring>
+        <name>RegisterBundles</name>
+        <param>
+          <type>BundleCollection</type>
+          <declname>bundles</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/AppWeb_Paginacion/App_Start/BundleConfig.cs" line="9" column="1" bodyfile="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/AppWeb_Paginacion/App_Start/BundleConfig.cs" bodystart="9" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/AppWeb_Paginacion/App_Start/BundleConfig.cs" line="7" column="1" bodyfile="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/AppWeb_Paginacion/App_Start/BundleConfig.cs" bodystart="6" bodyend="29"/>
+    <listofallmembers>
+      <member refid="class_app_web___paginacion_1_1_bundle_config_1a2840c0825499451be0e86d0fdc106329" prot="public" virt="non-virtual"><scope>AppWeb_Paginacion::BundleConfig</scope><name>RegisterBundles</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

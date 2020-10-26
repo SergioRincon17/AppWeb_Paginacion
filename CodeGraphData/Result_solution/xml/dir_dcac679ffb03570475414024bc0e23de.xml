@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_dcac679ffb03570475414024bc0e23de" kind="dir">
+    <compoundname>D:/Documentos Clases Virtuales &amp; Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/Negocio</compoundname>
+    <innerdir refid="dir_a0e03dcbc632469a2305687513cd4540">D:/Documentos Clases Virtuales &amp; Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/Negocio/Properties</innerdir>
+    <innerfile refid="_adquirir_8cs">Adquirir.cs</innerfile>
+    <innerfile refid="_negocio_2_dispositivo_8cs">Dispositivo.cs</innerfile>
+    <innerfile refid="_negocio_2_lista_dispositivos_8cs">ListaDispositivos.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/Negocio/"/>
+  </compounddef>
+</doxygen>

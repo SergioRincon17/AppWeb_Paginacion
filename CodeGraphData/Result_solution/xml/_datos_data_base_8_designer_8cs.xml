@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_datos_data_base_8_designer_8cs" kind="file">
+    <compoundname>DatosDataBase.Designer.cs</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>La<sp/>generación<sp/>de<sp/>código<sp/>T4<sp/>está<sp/>habilitada<sp/>para<sp/>el<sp/>modelo<sp/>&apos;D:\Documentos<sp/>Clases<sp/>Virtuales<sp/>&amp;<sp/>Precenciales\Programacion<sp/>WEB\0<sp/>Programacion<sp/>WEB<sp/>Visual<sp/>Studio\DatosDataBase\DatosDataBase.edmx&apos;.<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Para<sp/>habilitar<sp/>la<sp/>generación<sp/>de<sp/>código<sp/>heredada,<sp/>cambie<sp/>el<sp/>valor<sp/>de<sp/>la<sp/>propiedad<sp/>del<sp/>diseñador<sp/>&apos;Estrategia<sp/>de<sp/>generación<sp/>de<sp/>código&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>por<sp/>&apos;ObjectContext<sp/>heredado&apos;.<sp/>Esta<sp/>propiedad<sp/>está<sp/>disponible<sp/>en<sp/>la<sp/>ventana<sp/>Propiedades<sp/>cuando<sp/>se<sp/>abre</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>el<sp/>modelo<sp/>en<sp/>el<sp/>diseñador.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Si<sp/>no<sp/>se<sp/>ha<sp/>generado<sp/>ninguna<sp/>clase<sp/>de<sp/>contexto<sp/>y<sp/>de<sp/>entidad,<sp/>puede<sp/>que<sp/>haya<sp/>creado<sp/>un<sp/>modelo<sp/>vacío<sp/>pero</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/>no<sp/>haya<sp/>elegido<sp/>todavía<sp/>la<sp/>versión<sp/>de<sp/>Entity<sp/>Framework<sp/>que<sp/>se<sp/>va<sp/>a<sp/>usar.<sp/>Para<sp/>generar<sp/>una<sp/>clase<sp/>de<sp/>contexto<sp/>y<sp/>clases<sp/>de<sp/>entidad</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/>para<sp/>el<sp/>modelo,<sp/>abra<sp/>el<sp/>modelo<sp/>en<sp/>el<sp/>diseñador,<sp/>haga<sp/>clic<sp/>con<sp/>el<sp/>botón<sp/>secundario<sp/>en<sp/>la<sp/>superficie<sp/>del<sp/>diseñador<sp/>y</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/>seleccione<sp/>&apos;Actualizar<sp/>modelo<sp/>desde<sp/>base<sp/>de<sp/>datos...&apos;,<sp/>&apos;Generar<sp/>base<sp/>de<sp/>datos<sp/>desde<sp/>modelo...&apos;<sp/>o<sp/>&apos;Agregar<sp/>elemento<sp/>de<sp/>generación</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//<sp/>de<sp/>código...&apos;.</highlight></codeline>
+    </programlisting>
+    <location file="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/DatosDataBase/DatosDataBase.Designer.cs"/>
+  </compounddef>
+</doxygen>

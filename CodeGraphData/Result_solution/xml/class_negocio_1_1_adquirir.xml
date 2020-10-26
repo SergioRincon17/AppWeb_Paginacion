@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_negocio_1_1_adquirir" kind="class" prot="public">
+    <compoundname>Negocio::Adquirir</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_negocio_1_1_adquirir_1aca63a84e6a06bea65baaa5f512a3189a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_negocio_1_1_dispositivo" kindref="compound">Dispositivo</ref> &gt;</type>
+        <definition>static List&lt;Dispositivo&gt; Negocio.Adquirir.AdquirirDispositivos</definition>
+        <argsstring>()</argsstring>
+        <name>AdquirirDispositivos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/Negocio/Adquirir.cs" line="11" column="1" bodyfile="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/Negocio/Adquirir.cs" bodystart="11" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/Negocio/Adquirir.cs" line="10" column="1" bodyfile="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/Negocio/Adquirir.cs" bodystart="9" bodyend="29"/>
+    <listofallmembers>
+      <member refid="class_negocio_1_1_adquirir_1aca63a84e6a06bea65baaa5f512a3189a" prot="public" virt="non-virtual"><scope>Negocio::Adquirir</scope><name>AdquirirDispositivos</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

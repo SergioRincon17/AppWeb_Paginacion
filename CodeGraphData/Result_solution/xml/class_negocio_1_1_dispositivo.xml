@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_negocio_1_1_dispositivo" kind="class" prot="public">
+    <compoundname>Negocio::Dispositivo</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_negocio_1_1_dispositivo_1a90cdcd2dd85dcdc3f0e1bc66c92bd79a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Negocio.Dispositivo.DispositivoID</definition>
+        <argsstring></argsstring>
+        <name>DispositivoID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/Negocio/Dispositivo.cs" line="11" column="1" bodyfile="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/Negocio/Dispositivo.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_negocio_1_1_dispositivo_1ac061a1fad71d2f2f4893183a700eabf9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Negocio.Dispositivo.NombreDispositivo</definition>
+        <argsstring></argsstring>
+        <name>NombreDispositivo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/Negocio/Dispositivo.cs" line="12" column="1" bodyfile="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/Negocio/Dispositivo.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_negocio_1_1_dispositivo_1a1780c7d51e6068540e5d408bacb32c2c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Negocio.Dispositivo.TemperaturaDispositivo</definition>
+        <argsstring></argsstring>
+        <name>TemperaturaDispositivo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/Negocio/Dispositivo.cs" line="13" column="1" bodyfile="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/Negocio/Dispositivo.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_negocio_1_1_dispositivo_1a858c0cdb398c0e45f319a77561e6f4d1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DateTime</type>
+        <definition>DateTime Negocio.Dispositivo.FechaHoraDispositivo</definition>
+        <argsstring></argsstring>
+        <name>FechaHoraDispositivo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/Negocio/Dispositivo.cs" line="14" column="1" bodyfile="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/Negocio/Dispositivo.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/Negocio/Dispositivo.cs" line="10" column="1" bodyfile="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/Negocio/Dispositivo.cs" bodystart="9" bodyend="15"/>
+    <listofallmembers>
+      <member refid="class_negocio_1_1_dispositivo_1a90cdcd2dd85dcdc3f0e1bc66c92bd79a" prot="public" virt="non-virtual"><scope>Negocio::Dispositivo</scope><name>DispositivoID</name></member>
+      <member refid="class_negocio_1_1_dispositivo_1a858c0cdb398c0e45f319a77561e6f4d1" prot="public" virt="non-virtual"><scope>Negocio::Dispositivo</scope><name>FechaHoraDispositivo</name></member>
+      <member refid="class_negocio_1_1_dispositivo_1ac061a1fad71d2f2f4893183a700eabf9" prot="public" virt="non-virtual"><scope>Negocio::Dispositivo</scope><name>NombreDispositivo</name></member>
+      <member refid="class_negocio_1_1_dispositivo_1a1780c7d51e6068540e5d408bacb32c2c" prot="public" virt="non-virtual"><scope>Negocio::Dispositivo</scope><name>TemperaturaDispositivo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

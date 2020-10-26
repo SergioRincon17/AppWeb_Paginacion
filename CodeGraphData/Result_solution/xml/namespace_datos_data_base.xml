@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_datos_data_base" kind="namespace">
+    <compoundname>DatosDataBase</compoundname>
+    <innerclass refid="class_datos_data_base_1_1_data_base___paginacion_entities" prot="public">DatosDataBase::DataBase_PaginacionEntities</innerclass>
+    <innerclass refid="class_datos_data_base_1_1_dispositivo" prot="public">DatosDataBase::Dispositivo</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/DatosDataBase/DatosDataBase.Context.cs" line="11" column="1"/>
+  </compounddef>
+</doxygen>

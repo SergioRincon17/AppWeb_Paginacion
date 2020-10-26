@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_app_web___paginacion_1_1_controllers" kind="namespace">
+    <compoundname>AppWeb_Paginacion::Controllers</compoundname>
+    <innerclass refid="class_app_web___paginacion_1_1_controllers_1_1_home_controller" prot="public">AppWeb_Paginacion::Controllers::HomeController</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/AppWeb_Paginacion/Controllers/HomeController.cs" line="9" column="1"/>
+  </compounddef>
+</doxygen>

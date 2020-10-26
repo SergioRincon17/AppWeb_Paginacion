@@ -1,0 +1,28 @@
+﻿@model AppWeb_Paginacion.Models.ListaDispositivos
+@{
+    ViewBag.Title = "Home Page";
+}
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Dispositivo</th>
+            <th>Temperatura</th>
+            <th>Fecha Hora</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var Elemntos in Model.Lista_Dispositivos)
+        {
+            <tr>
+                <td>@Elemntos.DispositivoID</td>
+                <td>@Elemntos.NombreDispositivo</td>
+                <td>@Elemntos.TemperaturaDispositivo</td>
+                <td>@Elemntos.FechaHoraDispositivo</td>
+            </tr>
+        }
+    </tbody>
+</table>
+@section Scripts{
+    <script src="~/Scripts/AppWeb/Transacion.js"></script>    
+}

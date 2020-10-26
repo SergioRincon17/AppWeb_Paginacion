@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="class_app_web___paginacion_1_1_bundle_config" kind="class"><name>AppWeb_Paginacion::BundleConfig</name>
+    <member refid="class_app_web___paginacion_1_1_bundle_config_1a2840c0825499451be0e86d0fdc106329" kind="function"><name>RegisterBundles</name></member>
+  </compound>
+  <compound refid="class_app_web___paginacion_1_1_models_1_1_dispositivo" kind="class"><name>AppWeb_Paginacion::Models::Dispositivo</name>
+    <member refid="class_app_web___paginacion_1_1_models_1_1_dispositivo_1a2262093b15afe1996705ad832f5b77f0" kind="property"><name>DispositivoID</name></member>
+    <member refid="class_app_web___paginacion_1_1_models_1_1_dispositivo_1a0632b56218f0bf9ad031bd3a8480b7b8" kind="property"><name>NombreDispositivo</name></member>
+    <member refid="class_app_web___paginacion_1_1_models_1_1_dispositivo_1abd5189c271f7519c49430170f323615f" kind="property"><name>TemperaturaDispositivo</name></member>
+    <member refid="class_app_web___paginacion_1_1_models_1_1_dispositivo_1aab040ebd13f28958fa82cdc1c739f2e5" kind="property"><name>FechaHoraDispositivo</name></member>
+  </compound>
+  <compound refid="class_app_web___paginacion_1_1_filter_config" kind="class"><name>AppWeb_Paginacion::FilterConfig</name>
+    <member refid="class_app_web___paginacion_1_1_filter_config_1a21c328520052e206f09630b38bd178ca" kind="function"><name>RegisterGlobalFilters</name></member>
+  </compound>
+  <compound refid="class_app_web___paginacion_1_1_controllers_1_1_home_controller" kind="class"><name>AppWeb_Paginacion::Controllers::HomeController</name>
+    <member refid="class_app_web___paginacion_1_1_controllers_1_1_home_controller_1ad1b2a66ca14cc62b305a77cd6408a279" kind="function"><name>Index</name></member>
+  </compound>
+  <compound refid="class_app_web___paginacion_1_1_models_1_1_lista_dispositivos" kind="class"><name>AppWeb_Paginacion::Models::ListaDispositivos</name>
+    <member refid="class_app_web___paginacion_1_1_models_1_1_lista_dispositivos_1adeaae6d5aeb604e98379dfb592f157a5" kind="property"><name>Lista_Dispositivos</name></member>
+  </compound>
+  <compound refid="class_app_web___paginacion_1_1_mvc_application" kind="class"><name>AppWeb_Paginacion::MvcApplication</name>
+    <member refid="class_app_web___paginacion_1_1_mvc_application_1a156c1858cb76e3796dba52c848e17db1" kind="function"><name>Application_Start</name></member>
+  </compound>
+  <compound refid="class_app_web___paginacion_1_1_route_config" kind="class"><name>AppWeb_Paginacion::RouteConfig</name>
+    <member refid="class_app_web___paginacion_1_1_route_config_1a27269492eb597a9298098762a736fae8" kind="function"><name>RegisterRoutes</name></member>
+  </compound>
+  <compound refid="namespace_app_web___paginacion" kind="namespace"><name>AppWeb_Paginacion</name>
+  </compound>
+  <compound refid="namespace_app_web___paginacion_1_1_controllers" kind="namespace"><name>AppWeb_Paginacion::Controllers</name>
+  </compound>
+  <compound refid="namespace_app_web___paginacion_1_1_models" kind="namespace"><name>AppWeb_Paginacion::Models</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_compiler_services" kind="namespace"><name>System::Runtime::CompilerServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_interop_services" kind="namespace"><name>System::Runtime::InteropServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_web" kind="namespace"><name>System::Web</name>
+  </compound>
+  <compound refid="namespace_system_1_1_web_1_1_mvc" kind="namespace"><name>System::Web::Mvc</name>
+  </compound>
+  <compound refid="namespace_system_1_1_web_1_1_optimization" kind="namespace"><name>System::Web::Optimization</name>
+  </compound>
+  <compound refid="namespace_system_1_1_web_1_1_routing" kind="namespace"><name>System::Web::Routing</name>
+  </compound>
+  <compound refid="_bundle_config_8cs" kind="file"><name>BundleConfig.cs</name>
+  </compound>
+  <compound refid="_filter_config_8cs" kind="file"><name>FilterConfig.cs</name>
+  </compound>
+  <compound refid="_route_config_8cs" kind="file"><name>RouteConfig.cs</name>
+  </compound>
+  <compound refid="_home_controller_8cs" kind="file"><name>HomeController.cs</name>
+  </compound>
+  <compound refid="_global_8asax_8cs" kind="file"><name>Global.asax.cs</name>
+  </compound>
+  <compound refid="_dispositivo_8cs" kind="file"><name>Dispositivo.cs</name>
+  </compound>
+  <compound refid="_lista_dispositivos_8cs" kind="file"><name>ListaDispositivos.cs</name>
+  </compound>
+  <compound refid="_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="dir_33bcabfd9daf4f45a08ac7173d4810f5" kind="dir"><name>D:/Documentos Clases Virtuales &amp; Precenciales/Programacion WEB/0 Programacion WEB Visual Studio</name>
+  </compound>
+  <compound refid="dir_2f3bcf3ae787207b07a94d357cfdb2b0" kind="dir"><name>D:/Documentos Clases Virtuales &amp; Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/AppWeb_Paginacion/App_Start</name>
+  </compound>
+  <compound refid="dir_9fbb11a8536682a44998e42055376a2b" kind="dir"><name>D:/Documentos Clases Virtuales &amp; Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/AppWeb_Paginacion</name>
+  </compound>
+  <compound refid="dir_a41b0253000471672b07c9d1b8526aee" kind="dir"><name>D:/Documentos Clases Virtuales &amp; Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/AppWeb_Paginacion/Controllers</name>
+  </compound>
+  <compound refid="dir_275089585c7fc1b5fd5d7d42c69cb1da" kind="dir"><name>D:</name>
+  </compound>
+  <compound refid="dir_16a11de0571208fe4966f287ad0604fc" kind="dir"><name>D:/Documentos Clases Virtuales &amp; Precenciales</name>
+  </compound>
+  <compound refid="dir_def96a607ee02fbfceca596104978c1d" kind="dir"><name>D:/Documentos Clases Virtuales &amp; Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/AppWeb_Paginacion/Models</name>
+  </compound>
+  <compound refid="dir_a1b1c7b96d0fa597d6dc2037b6d2c362" kind="dir"><name>D:/Documentos Clases Virtuales &amp; Precenciales/Programacion WEB</name>
+  </compound>
+  <compound refid="dir_f41f916d12414f59732fc56defd516ff" kind="dir"><name>D:/Documentos Clases Virtuales &amp; Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/AppWeb_Paginacion/Properties</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_9fbb11a8536682a44998e42055376a2b" kind="dir">
+    <compoundname>D:/Documentos Clases Virtuales &amp; Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/AppWeb_Paginacion</compoundname>
+    <innerdir refid="dir_a41b0253000471672b07c9d1b8526aee">D:/Documentos Clases Virtuales &amp; Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/AppWeb_Paginacion/Controllers</innerdir>
+    <innerdir refid="dir_def96a607ee02fbfceca596104978c1d">D:/Documentos Clases Virtuales &amp; Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/AppWeb_Paginacion/Models</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/AppWeb_Paginacion/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_app_web___paginacion_1_1_mvc_application" kind="class" prot="public">
+    <compoundname>AppWeb_Paginacion::MvcApplication</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">HttpApplication</basecompoundref>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_app_web___paginacion_1_1_mvc_application_1a156c1858cb76e3796dba52c848e17db1" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AppWeb_Paginacion.MvcApplication.Application_Start</definition>
+        <argsstring>()</argsstring>
+        <name>Application_Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/AppWeb_Paginacion/Global.asax.cs" line="13" column="1" bodyfile="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/AppWeb_Paginacion/Global.asax.cs" bodystart="13" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="25">
+        <label>System::Web::HttpApplication</label>
+      </node>
+      <node id="24">
+        <label>AppWeb_Paginacion.MvcApplication</label>
+        <link refid="class_app_web___paginacion_1_1_mvc_application"/>
+        <childnode refid="25" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="27">
+        <label>System::Web::HttpApplication</label>
+      </node>
+      <node id="26">
+        <label>AppWeb_Paginacion.MvcApplication</label>
+        <link refid="class_app_web___paginacion_1_1_mvc_application"/>
+        <childnode refid="27" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/AppWeb_Paginacion/Global.asax.cs" line="12" column="1" bodyfile="D:/Documentos Clases Virtuales & Precenciales/Programacion WEB/0 Programacion WEB Visual Studio/AppWeb_Paginacion/Global.asax.cs" bodystart="11" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_app_web___paginacion_1_1_mvc_application_1a156c1858cb76e3796dba52c848e17db1" prot="protected" virt="non-virtual"><scope>AppWeb_Paginacion::MvcApplication</scope><name>Application_Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
