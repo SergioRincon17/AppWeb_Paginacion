@@ -1,5 +1,5 @@
 DECLARE @cnt INT = 0;
-while @cnt < 10
+while @cnt < 1000
 Begin
 	insert into Dispositivo values (2,RAND(),GETDATE());
 	set @cnt = @cnt+1;
