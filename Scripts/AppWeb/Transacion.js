@@ -91,8 +91,6 @@ function PedirInfoFiltro(pagina) {
     xhttp.responseType = "json";
     xhttp.send("Informacion=" + InfoFiltro);
 }
-
-
 //window.addEventListener('load', PedirDatosdb);
 //function PedirDatosdb(pagina) {
 //    var xhttp = new XMLHttpRequest();

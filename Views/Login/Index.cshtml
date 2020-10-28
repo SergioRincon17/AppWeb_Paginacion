@@ -1,0 +1,55 @@
+﻿@model AppWeb_Paginacion.Models.Usuario
+@{
+    ViewBag.Title = "Index";
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title Login </title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+
+<body class="login">
+    <div class="container body-content">
+        <div class="row">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-4">
+                <a class="hiddenanchor" id="signup"></a>
+                <a class="hiddenanchor" id="signin"></a>
+
+                <div class="login_wrapper">
+                    <div class="animate form login_form">
+                        <section class="login_content">
+                            <!--Login-->
+                            <form action="~/Login/VerificarLogin">
+                                <h1>Login</h1>
+                                <div>
+                                    <input name="Correo" type="text" class="form-control" placeholder="Correo" required="" />
+                                </div>
+                                <div>
+                                    <input name="Contraseña" type="password" class="form-control" placeholder="Contraseña" required="" />
+                                </div>
+                                <div>
+                                    <!--Verificar Usuario-->
+                                    <input class="btn btn-secondary" type="submit" value="Login" />
+                                </div>
+
+                                <div class="clearfix"></div>
+                            </form>
+                            <!--Login-->
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4"></div>
+        </div>
+    </div>
+</body>
+
+</html>
+
