@@ -1,4 +1,5 @@
-﻿function MostrarDatosAjax(registros) {
+﻿window.addEventListener('load', PedirInfoFiltro(1));
+function MostrarDatosAjax(registros) {
     n = TablaListaDispositivos.rows.length;
     for (i = 2; i < n; i++) {
         TablaListaDispositivos.deleteRow(2);
