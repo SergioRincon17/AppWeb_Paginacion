@@ -6,12 +6,17 @@
 <table class="table table-striped" id="TablaListaDispositivos">
     <thead>
         <tr>
+            <td> <input type="text" id="Input_ID" onchange="PedirInfoFiltro(1)"/></td>
+            <td> <input type="text" id="Input_Dispositivo" onchange="PedirInfoFiltro(1)"/> </td>
+            <td> <input type="text" id="Input_Temperatura" onchange="PedirInfoFiltro(1)"/> </td>
+            <td> <input type="text" id="Input_FechaHora" onchange="PedirInfoFiltro(1)"/> </td>
+        </tr>
+        <tr>
             <th>ID</th>
             <th>Dispositivo</th>
             <th>Temperatura</th>
             <th>Fecha Hora</th>
         </tr>
-
     </thead>
 </table>
 @{ Html.RenderPartial("Paginacion",Model); }

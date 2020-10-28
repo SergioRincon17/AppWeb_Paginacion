@@ -8,6 +8,5 @@ namespace AppWeb_Paginacion.Models
     public class NumeroDatos
     {
         public int Numero_Datos { get; set; }
-        public int Pagina_Actual { get; set; }
     }
 }
