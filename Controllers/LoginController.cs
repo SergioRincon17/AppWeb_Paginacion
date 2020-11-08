@@ -16,13 +16,21 @@ namespace AppWeb_Paginacion.Controllers
         }
         public ActionResult VerificarLogin(Usuario usuario)
         {
-            bool verificar = Negocio.Adquirir.VerificarUsuario(usuario.Correo, usuario.Contraseña);
-            if (verificar == true){
-                return Redirect("/Home/Index");
+            bool verificar = Negocio.Usuario.VerificarUsuario(usuario.Correo_User, usuario.Contraseña_User);
+            if (verificar == true)
+            {
+                var IA = new Seguridad.InfoAutenticar();
+                IA.ToCoockie(HttpContext.Response);
+                return Redirect("/User/Registros");
             }
-            else {
+            else
+            {
                 return Redirect("Index");
             }
+        }        
+        public ActionResult CrearUsuario(Negocio.Usuario usuario) {
+            Negocio.Usuario.CrearUser(usuario);
+            return Redirect("Index");
         }
     }
 }

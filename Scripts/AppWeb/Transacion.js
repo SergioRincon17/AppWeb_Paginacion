@@ -7,13 +7,13 @@ function MostrarDatosAjax(registros) {
     for (i = 0; i < registros.Lista_Dispositivos.length; i++) {
         row = TablaListaDispositivos.insertRow();
         cell = row.insertCell(0);
-        cell.innerHTML = registros.Lista_Dispositivos[i].DispositivoID;
+        cell.innerHTML = registros.Lista_Dispositivos[i].Serial;
         cell = row.insertCell(1);
-        cell.innerHTML = registros.Lista_Dispositivos[i].NombreDispositivo;
+        cell.innerHTML = registros.Lista_Dispositivos[i].Ruido;
         cell = row.insertCell(2);
-        cell.innerHTML = registros.Lista_Dispositivos[i].TemperaturaDispositivo;
+        cell.innerHTML = registros.Lista_Dispositivos[i].FechaHora;
         cell = row.insertCell(3);
-        cell.innerHTML = registros.Lista_Dispositivos[i].FechaHoraDispositivo;
+        cell.innerHTML = registros.Lista_Dispositivos[i].Ubicacion;
     }
 }
 function PedirPagMax(pagina) {
@@ -23,6 +23,9 @@ function PedirPagMax(pagina) {
         if (xhttp.readyState == 4) {
             if (xhttp.status == 200) {
                 PaginaMaxima = xhttp.response;
+                B_1.style.display = 'block';
+                B_2.style.display = 'block';
+                B_3.style.display = 'block';
                 B_Ultima.onclick = function () { PedirInfoFiltro(PaginaMaxima) }
                 if (pagina > 1 && pagina < PaginaMaxima) {
                     B_1.innerText = pagina - 1;
@@ -41,6 +44,21 @@ function PedirPagMax(pagina) {
                     B_1.onclick = function () { PedirInfoFiltro(1) }
                     B_2.onclick = function () { PedirInfoFiltro(2) }
                     B_3.onclick = function () { PedirInfoFiltro(3) }
+                    if (PaginaMaxima == 1) {
+                        B_2.style.display = 'none';
+                        B_3.style.display = 'none';
+                    }
+                    if (PaginaMaxima == 2)
+                        B_3.style.display = 'none';
+                }
+                else if (pagina == PaginaMaxima && PaginaMaxima == 2 ){
+                    B_1.style.display = 'none';
+                    B_2.innerText = PaginaMaxima - 1;
+                    B_3.innerText = PaginaMaxima
+
+                    B_2.onclick = function () { PedirInfoFiltro(PaginaMaxima - 1) }
+                    B_3.onclick = function () { PedirInfoFiltro(PaginaMaxima) }
+
                 }
                 else if (pagina == PaginaMaxima) {
                     B_1.innerText = PaginaMaxima - 2;
@@ -68,7 +86,7 @@ function PedirPagMax(pagina) {
             }
         }
     }
-    xhttp.open("POST", "/Home/Pedir_PaginaMax", true);
+    xhttp.open("POST", "/User/Pedir_PaginaMax", true);
     xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
     xhttp.responseType = "json";
     xhttp.send("Informacion=" + InfoFiltro);
@@ -87,7 +105,7 @@ function PedirInfoFiltro(pagina) {
             }
         }
     };
-    xhttp.open("POST", "/Home/PedirInfoFiltro/" + pagina, true);
+    xhttp.open("POST", "/User/PedirInfoFiltro/" + pagina, true);
     xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
     xhttp.responseType = "json";
     xhttp.send("Informacion=" + InfoFiltro);
