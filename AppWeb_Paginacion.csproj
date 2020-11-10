@@ -127,17 +127,22 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\DispositivoTimeController.cs" />
-    <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Dispositivo.cs" />
     <Compile Include="Models\ListaDispositivos.cs" />
+    <Compile Include="Models\ListaUsuarios.cs" />
     <Compile Include="Models\NumeroDatos.cs" />
     <Compile Include="Models\Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Seguridad\FiltroSeguridad.cs" />
+    <Compile Include="Seguridad\FiltroSeguridadAdmin.cs" />
+    <Compile Include="Seguridad\FiltroSeguridadDisp.cs" />
+    <Compile Include="Seguridad\FiltroSeguridadUser.cs" />
     <Compile Include="Seguridad\InfoAutenticar.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -151,6 +156,7 @@
     <Content Include="Content\fontawesome\css\font-awesome.min.css" />
     <Content Include="Content\fontawesome\fonts\fontawesome-webfont.svg" />
     <Content Include="Content\fontawesome\HELP-US-OUT.txt" />
+    <Content Include="Content\morris.css" />
     <Content Include="Content\nprogress.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -159,11 +165,14 @@
     <Content Include="Imagenes\Admin.jpg" />
     <Content Include="Imagenes\arrow-icon-vector.jpg" />
     <Content Include="Imagenes\Persona.jpg" />
+    <Content Include="Scripts\AppWeb\GraficaLineas.js" />
+    <Content Include="Scripts\AppWeb\Transacion_User.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\custom.min.js" />
     <Content Include="Scripts\jquery.min.js" />
+    <Content Include="Scripts\morris.min.js" />
     <Content Include="Scripts\nprogress.js" />
-    <Content Include="Scripts\AppWeb\Transacion.js" />
+    <Content Include="Scripts\AppWeb\Transacion_Admin.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Content\fontawesome\.bower.json" />
@@ -202,7 +211,8 @@
     <Content Include="Content\fontawesome\scss\_rotated-flipped.scss" />
     <Content Include="Content\fontawesome\scss\_stacked.scss" />
     <Content Include="Content\fontawesome\scss\_variables.scss" />
-    <None Include="Properties\PublishProfiles\AppWebPaginacion - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\AppWebAdquisicion - Web Deploy.pubxml" />
+    <Content Include="Scripts\bootstrap.bundle.min.js.map" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -224,11 +234,18 @@
     <Content Include="Views\Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
-    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Shared\_LayoutUser.cshtml" />
     <Content Include="Views\User\Registros.cshtml" />
     <Content Include="Views\User\Paginacion.cshtml" />
     <Content Include="Views\Login\Index.cshtml" />
     <Content Include="Views\User\Grafica.cshtml" />
+    <Content Include="Views\Admin\Grafica.cshtml" />
+    <Content Include="Views\Admin\Paginacion.cshtml" />
+    <Content Include="Views\Admin\Registros.cshtml" />
+    <Content Include="Views\Shared\_LayoutAdmin.cshtml" />
+    <Content Include="Views\Admin\Edit.cshtml" />
+    <Content Include="Views\Admin\ViewUsuarios.cshtml" />
+    <Content Include="Views\Admin\EditarUser.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

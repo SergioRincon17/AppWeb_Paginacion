@@ -1,0 +1,32 @@
+﻿@model Negocio.Usuario
+@{
+    ViewBag.Title = "EditarUser";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Edit</h2>
+
+<section class="login_content">
+    <form action="EditarUser" method="post">
+        <h1>Modificar Cuenta</h1>
+        @Html.HiddenFor(Model => Model.Id_Usuario)
+        @Html.HiddenFor(Model => Model.Contraseña_User)
+        <div>
+            <input type="text" class="form-control" placeholder="Nombre" value=@Model.Nombre_User name="Nombre_User" required="" />
+        </div>
+        <div>
+            <input type="email" class="form-control" placeholder="Correo" value=@Model.Correo_User name="Correo_User" required="" />
+        </div>
+        <div>
+            <input type="text" class="form-control" placeholder="Rol_User" value=@Model.Rol_User name="Rol_User" required="" />
+        </div>
+        <div>
+            <input type="text" class="form-control" placeholder="Estado" value=@Model.Estado_User.ToString() name="Estado_User" required="" />
+        </div>
+        <div>
+            <input type="submit" value="Guardar" class="btn btn-round btn-secondary" />
+        </div>
+
+        <br />
+    </form>
+</section>

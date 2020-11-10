@@ -1,0 +1,31 @@
+﻿@model Negocio.Dispositivo
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Edit</h2>
+
+<section class="login_content">
+    <form action="Edit" method="post">
+        <h1>Modificar Cuenta</h1>
+        @Html.HiddenFor(Model => Model.Id_Dispositivo)
+        <div>
+            <input type="text" class="form-control" placeholder="Nombre" value=@Model.Serial name="Serial" required="" />
+        </div>
+        <div>
+            <input type="text" class="form-control" placeholder="Ruido" value=@Model.Ruido name="Ruido" required="" />
+        </div>
+        <div>
+            <input type="text" class="form-control" placeholder="Fecha & Hora" value=@Model.FechaHora name="FechaHora" required="" />
+        </div>
+        <div>
+            <input type="text" class="form-control" placeholder="Ubicacion" value=@Model.Ubicacion name="Ubicacion" required="" />
+        </div>
+        <div>
+            <input type="submit" value="Guardar" class="btn btn-round btn-secondary" />
+        </div>
+
+        <br />
+    </form>
+</section>

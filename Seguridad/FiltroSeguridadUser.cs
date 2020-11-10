@@ -7,22 +7,29 @@ using System.Web.Mvc.Filters;
 
 namespace AppWeb_Paginacion.Seguridad
 {
-    public class FiltroSeguridad : FilterAttribute, IAuthenticationFilter
+    public class FiltroSeguridadUser: FilterAttribute, IAuthenticationFilter
     {
         public void OnAuthentication(AuthenticationContext filterContext)
         {
             var IA = new InfoAutenticar();
-            if (!IA.FromCookie(filterContext.HttpContext.Request))
+            var respuesta = IA.FromCookie(filterContext.HttpContext.Request);
+            if (respuesta != 1)
                 filterContext.Result = new HttpUnauthorizedResult();
 
         }
 
         public void OnAuthenticationChallenge(AuthenticationChallengeContext filterContext)
         {
-            if(filterContext.Result == null || filterContext.Result is HttpUnauthorizedResult)
+            if (filterContext.Result == null || filterContext.Result is HttpUnauthorizedResult)
             {
                 filterContext.Result = new RedirectResult("~/Login/Index", false);
             }
         }
+
+        public void OnAuthorization(AuthorizationContext filterContext)
+        {
+            throw new NotImplementedException();
+        }
+
     }
 }

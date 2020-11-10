@@ -1,0 +1,56 @@
+﻿@model AppWeb_Paginacion.Models.ListaUsuarios
+@{
+    ViewBag.Title = "ViewUsuarios";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-12 col-sm-12 ">
+        <div class="x_panel">
+            <div class="x_title">
+                <h2>Tabla Usuarios <small></small></h2>
+                <div class="clearfix"></div>
+            </div>
+            <div class="x_content">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="card-box table-responsive">
+                            <p class="text-muted font-13 m-b-30">
+                            </p>
+                            <table id="datatable" class="table table-striped table-bordered" style="width:100%">
+                                <thead>
+                                    <tr>
+                                        <th>Id</th>
+                                        <th>Nombre</th>
+                                        <th>Correo</th>
+                                        <th>Rol</th>
+                                        <th>Estado</th>
+                                        <th>Modificar</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var InLista in Model.ListUsuarios)
+                                    {
+                                        <tr>
+                                            <th scope="row">@InLista.Id_Usuario</th>
+                                            <td>@InLista.Nombre_User</td>
+                                            <td>@InLista.Correo_User</td>
+                                            <td>@InLista.Rol_User</td>
+                                            <td>@InLista.Estado_User</td>
+                                            <td>
+
+                                                <a class="btn-secondary btn-sm" href="~/Admin/EditarUser/@InLista.Id_Usuario">Editar</a>
+                                                <a class="btn-danger btn-sm" href="~/Admin/DeleteUser/@InLista.Id_Usuario"> Eliminar</a>
+
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,50 @@
+﻿@model AppWeb_Paginacion.Models.NumeroDatos
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    ViewBag.Title = "Home Page";
+}
+
+
+<div class="row">
+    <div class="col-md-12 col-sm-12 ">
+        <div class="x_panel">
+            <div class="x_title">
+                <h2>Tabla Registros <small></small></h2>
+                <div class="clearfix"></div>
+            </div>
+            <div class="x_content">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="card-box table-responsive">
+                            <p class="text-muted font-13 m-b-30">
+                            </p>
+                            <table class="table table-striped table-bordered" style="width:100%" id="TablaListaDispositivos">
+                                <thead>
+                                    <tr>
+                                        <td> <input type="text" id="Input_ID" onchange="PedirInfoFiltro(1)" /></td>
+                                        <td> <input type="text" id="Input_Dispositivo" onchange="PedirInfoFiltro(1)" /> </td>
+                                        <td> <input type="text" id="Input_Temperatura" onchange="PedirInfoFiltro(1)" /> </td>
+                                        <td> <input type="text" id="Input_FechaHora" onchange="PedirInfoFiltro(1)" /> </td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th>Serial</th>
+                                        <th>Ruido</th>
+                                        <th>FechaHora</th>
+                                        <th>Ubicacion</th>
+                                        <th>Editar</th>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@{ Html.RenderPartial("Paginacion", Model); }
+<script src="~/Scripts/AppWeb/Transacion_Admin.js"></script>

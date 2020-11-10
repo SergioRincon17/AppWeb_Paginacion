@@ -1,5 +1,6 @@
 ﻿@model AppWeb_Paginacion.Models.NumeroDatos
 @{
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
     ViewBag.Title = "Home Page";
 }
 
@@ -10,6 +11,7 @@
             <td> <input type="text" id="Input_Dispositivo" onchange="PedirInfoFiltro(1)"/> </td>
             <td> <input type="text" id="Input_Temperatura" onchange="PedirInfoFiltro(1)"/> </td>
             <td> <input type="text" id="Input_FechaHora" onchange="PedirInfoFiltro(1)"/> </td>
+            <td></td>
         </tr>
         <tr>
             <th>Serial</th>
@@ -20,5 +22,5 @@
     </thead>
 </table>
 @{ Html.RenderPartial("Paginacion",Model); }
-<script src="~/Scripts/AppWeb/Transacion.js"></script>
+<script src="~/Scripts/AppWeb/Transacion_User.js"></script>
 
